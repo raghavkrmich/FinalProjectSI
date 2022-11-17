@@ -5,7 +5,7 @@
     top: auto;
     width: 1px;
     height: 1px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .skip:focus {
     position: static;
@@ -19,7 +19,7 @@
 .title, .navbar{
     display: inline;
 }
-.title, .nav-links a{
+.title, .nav-links a, .active a{
     padding: 14px 16px;
     color: black;
     font-size: x-large;
@@ -32,15 +32,16 @@
     display: inline-flex;
     float: right;
     justify-content: space-between;
-    width: 300px;
-    margin-right: 30px;
+    width: 381px;
+    margin-right: 20px;
 
 }
-.nav-links a{
+
+.nav-links a, .active a{
     display: block;
 }
 
-.nav-links a:hover{
+.nav-links a:hover, .active a:hover{
     background-color: lightblue;
     text-decoration: none;
 }
@@ -51,7 +52,7 @@
     color: grey;
     text-decoration: none;
 }
-.nav-links a:active{
+.nav-links a:active, .active a:active{
     text-decoration: none;
 }
 
