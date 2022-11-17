@@ -1,0 +1,62 @@
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+.bar{
+    width: 100%;
+    background-color: aqua;
+}
+.title, .navbar{
+    display: inline;
+}
+.title, .nav-links a{
+    padding: 14px 16px;
+    color: black;
+    font-size: x-large;
+}
+.title{
+    display: inline-block;
+    margin-left: 2px;
+}
+.navbar{
+    display: inline-flex;
+    float: right;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 30px;
+
+}
+.nav-links a{
+    display: block;
+}
+
+.nav-links a:hover{
+    background-color: lightblue;
+    text-decoration: none;
+}
+.nav-links a:link{
+    text-decoration: none;
+}
+.nav-links a:visited{
+    color: grey;
+    text-decoration: none;
+}
+.nav-links a:active{
+    text-decoration: none;
+}
+
+.genres{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
