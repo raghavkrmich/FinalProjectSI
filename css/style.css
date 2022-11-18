@@ -49,7 +49,6 @@
     text-decoration: none;
 }
 .nav-links a:visited{
-    color: grey;
     text-decoration: none;
 }
 .nav-links a:active, .active a:active{
