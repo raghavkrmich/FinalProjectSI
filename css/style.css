@@ -1,4 +1,3 @@
-
 .skip {
     position: absolute;
     left: -10000px;
@@ -59,4 +58,3 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
-
