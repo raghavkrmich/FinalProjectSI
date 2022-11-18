@@ -11,6 +11,10 @@
     width: auto;
     height: auto;
 }
+
+body {
+    background-color: grey;
+}
 .bar{
     width: 100%;
     background-color: aqua;
@@ -57,4 +61,22 @@
 .genres{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+}
+
+.types{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+
+.songs{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 25%;
+}
+
+.history{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 25%;
 }
