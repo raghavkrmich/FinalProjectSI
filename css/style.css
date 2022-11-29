@@ -52,10 +52,12 @@ textarea {
 
 
 
-
-.popup{
+#homeform{
+    margin-top: 5%;
+}
+.popup, .popup2 {
     background-color: lightblue;
-    width: 450px;
+    width: 30%;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -66,7 +68,7 @@ textarea {
     display: none;
     text-align: center;
 }
-.popup button{
+.popup button, .popup2 button{
     display: block;
     margin:  0 0 20px auto;
     background-color: transparent;
@@ -76,22 +78,16 @@ textarea {
     outline: none;
     cursor: pointer;
 }
-.popup p{
+
+.popup p, .popup2 p{
     font-size: 14px;
     text-align: justify;
     margin: 20px 0;
     line-height: 25px;
 }
-b{
-    display: block;
-    width: 150px;
-    position: relative;
-    margin: 10px auto;
-    text-align: center;
-    background-color: blue;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 5px 0;
+
+#close{
+    margin-bottom: 0%;
 }
 
 
@@ -113,6 +109,10 @@ b{
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+.photos img:hover{
+    filter: contrast(5);
+    /*flex-grow: initial;*/
 }
 .col_title{
     display: none;
@@ -235,10 +235,19 @@ footer {
     text-align: center;
 }
 
-
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photos img{
+    width: 100%;
+}
 
 
 @media screen and (min-width: 600px) {
+    .photos img{
+        width: 50%;
+    }
     .navbar{
         flex-direction: row;
     }
@@ -336,6 +345,10 @@ footer {
 }
 
 @media screen and (min-width: 1280px) {
+    .photos img{
+        width: 20%;
+    }
+    
     .genres{
         margin-top: 2%;
         grid-template-columns: 25% 25% 25% 25%;
@@ -400,9 +413,6 @@ footer {
         display: inline-block;
         margin: auto;
         padding: 14px 16px;
-    }
-    form{
-        margin-top: 5%;
     }
     .navbar{
         display: inline-flex;
