@@ -202,6 +202,9 @@ video{
     overflow: scroll;
     color: darkblue;
 }
+.gen_text:hover{
+    border:2px dashed white;
+}
 
 img{
     width: 100%;
