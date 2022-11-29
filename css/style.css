@@ -95,6 +95,7 @@ body {
     text-align: center;
     padding-bottom: 2px;
     font-size: xx-large;
+    /*font-size: 500%;*/
 }
 
 .navbar{
@@ -140,11 +141,19 @@ video{
     padding: 10px;
     border: 2px dashed black;
     border-radius: 20px;
+    overflow: scroll;
+    font-style:oblique;
+
+}
+
+.genre_text {
+    color:darkslategray;
 }
 
 .gen_text{
     background-color: lightblue;
     overflow: scroll;
+    color: darkblue;
 }
 
 img{
@@ -165,6 +174,8 @@ img{
     font-size: x-large;
     margin: auto;
     justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
