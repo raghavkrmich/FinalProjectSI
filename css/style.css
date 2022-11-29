@@ -68,33 +68,32 @@ video{
     height: 100%;
 }
 
-.genre_text{
+.genre_text, .gen_text{
     display: block;
     padding: 10px;
     border: 2px dashed black;
     border-radius: 20px;
 }
 
-.genre img{
+img{
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
 
+
 .container{
     display: grid;
-    height: 2000px;
+    grid-row-gap: 1%;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(9, 11.1111%);
+    grid-template-rows: repeat(3, 1% 9% 9% 9%);
 }
 
-.container img{
-    width: 100%;
-    height: 100%;
+.type_title{
+    grid-column: span 2;
 }
-.container img:nth-child(3n+1), .gen_text:nth-child(3n-1){
-    border-top: 10px double darkblue;
-}
+
+
 
 
 
