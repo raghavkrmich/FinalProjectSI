@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/html5reset.css">
   <link rel="stylesheet" href="css/style.css">
- <title>Music Genres</title>	
+ 	
 </head>	
 <body>
     <header>
+        <title>Music Genres</title>
         <a href="#main" class="skip">Skip to main content</a>
         <div class="bar">
             <h1 class="title">Music Genres</h1>	
@@ -22,27 +23,50 @@
     </header>	
     <main id="main">
         <div class="genres">
-            <div class="genre"><img src="img/global.jpeg" alt="Globe with music notes surrounding it"></div>
-            <div class="genre_text">Text</div>
-            <video autoplay="true" preload="none"
+            <div class = "col_title"> Global Music</div>
+            <div class = "col_title"> Rap</div>
+            <div class = "col_title"> Rock</div>
+            <div id = "el1" class="genre"><img src="img/global.jpeg" alt="Globe with music notes surrounding it"></div>
+            <div id="el10"class="genre_text">Text</div>
+            <video id="el4" autoplay="true" preload="none"
             src="assets/"></video>
-            <video autoplay="true" preload="none"
+            <video id = "el7" autoplay="true" preload="none"
             src="assets/"></video>
-            <div class="genre"><img src="img/rap.webp" alt="Eminem"></div>
-            <div class="genre_text">Text</div>
-            <video autoplay="true" preload="none"
+            <div id = "el5" class="genre"><img src="img/rap.webp" alt="Eminem"></div>
+            <div id = "el8"class="genre_text">Text</div>
+            <video id="el2" autoplay="true" preload="none"
             src="assets/"></video>
-            <video autoplay="true" preload="none"
+            <video id="el11" autoplay="true" preload="none"
             src="assets/"></video>
-            <div class="genre"><img src="img/rock.jpeg" alt="Rock img featuring a guitar"></div>
-            <div class="genre_text">Text</div>
-            <video autoplay="true" preload="none"
+            <div id = "el12" class="genre"><img src="img/rock.jpeg" alt="Rock img featuring a guitar"></div>
+            <div id="el6"class="genre_text">Text</div>
+            <video id="el3" autoplay="true" preload="none"
             src="assets/"></video>
-            <video autoplay="true" preload="none"
+            <video id = "el9" autoplay="true" preload="none"
             src="assets/"></video>
         </div>
+        <form action="/my-handling-form-page" method="post">
+            <div>Share your favorite genre!</div>
+            <div class="group"> 
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+            </div>
+            <div class="group"> 
+                <label for="name">Email:</label>
+                <input type="text" id="email" name="email" />
+            </div>
+            <div class="group"> 
+                <label for="genre">Favorite Genre:</label>
+                <input type="text" id="genre" name="genre" />
+            </div>
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+		</form>
     </main>	
   <footer>	
+    <p>Genres of Music <br/>
+        &copy; Daniel Maslia, Raghav Krishnaswamy - SI 339 Fall 2022</p>
   </footer>	
 </body>	
 </html>
