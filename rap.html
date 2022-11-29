@@ -17,6 +17,7 @@
                 <li class="nav-links"><a href="global_music.html">Global</a></li>
                 <li class="active"><a href="rap.html">Rap</a></li>
                 <li class="nav-links"><a href="rock.html">Rock</a></li>
+                <li class="nav-links"><a href="gallery.html">Gallery</a></li>
             </ul>
         </div>
     </header>	
@@ -44,24 +45,32 @@
             <img id="img9" src="img/GodsPlanDrake.jpg" alt="The title of the song Je Te Le Donne">
             <div id="txt9" class="gen_text">Ill Be Fine – This is a song by the late artist Juice Wrld who became popular off his melodic rap music. In this song Juice Wrld is talking about how he misses a girl who left him and who he is going to be fine. He is also taking a lot of painkillers and other medications that others are telling him to stop, but he insists that he will be fine. Essentially, he is going through a lot and is deeply hurting. </div>
         </div>
-        <form action="/my-handling-form-page" method="post">
-            <div>Share your favorite song!</div>
+        <form action = "#" id = "homeform">
+            <div>Share your favorite genre!</div>
             <div class="group"> 
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
+                <input type="text" id="name" />
             </div>
             <div class="group"> 
                 <label for="name">Email:</label>
-                <input type="text" id="email" name="email" />
+                <input type="text" id="email" />
             </div>
             <div class="group"> 
-                <label for="genre">Favorite Song From This Genre:</label>
-                <input type="text" id="genre" name="genre" />
+                <label for="genre">Favorite Genre:</label>
+                <input type="text" id="genre" />
             </div>
             <div class="button">
-                <button type="submit">Send your message</button>
+                <button id="btn">Send your genre!</button>
             </div>
 		</form>
+        <div class="popup2">
+            <button id="close2">&times;</button>
+            <h2>Genres of Music</h2>
+            <p>
+                Thank you for your submission!
+            </p>
+        </div>
+        <script src="js/main.js"></script>
     </main>	
 <footer>	
     <p>Genres of Music <br/>
