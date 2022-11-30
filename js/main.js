@@ -16,6 +16,13 @@ document.querySelector("#close2").addEventListener("click", function(){
 document.querySelector("#btn").onclick = function(){
     document.querySelector(".popup2").style.display = "block";
 }
+
+window.addEventListener("load", function(){
+    var videos = document.getElementsByTagName("video");
+    for (let i = 0, len = videos.length; i < len; i++){
+        videos[i].pause();
+    }
+})
 // var videos = document.getElementsByTagName("video");
 // for(let i = 0, len = videos.length; i < len; i++){
 //     videos[i].onclick = function(){
