@@ -7,7 +7,7 @@ form {
     margin: 0 auto;
     /* To see the outline of the form */
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 1em;
 }
 label{
@@ -127,7 +127,7 @@ header{
     background-color: lightblue;
 }
 body {
-    background-color: white;
+    background-color: burlywood;
 }
 .bar{
     width: 100%;
