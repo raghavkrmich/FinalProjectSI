@@ -1,7 +1,13 @@
+var counter = 0;
+
 window.addEventListener("load", function(){
     setTimeout(
         function open(event){
-            document.querySelector(".popup").style.display = "block";
+            console.log(counter);
+            if (counter == 0){
+                document.querySelector(".popup").style.display = "block";
+                counter++;
+            }
         }
     )
 });
