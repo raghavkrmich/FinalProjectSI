@@ -1,13 +1,13 @@
-var counter = 0;
+//var counter = 0;
 
 window.addEventListener("load", function(){
     setTimeout(
         function open(event){
-            console.log(counter);
-            if (counter == 0){
+            //console.log(counter);
+            //if (counter == 0){
                 document.querySelector(".popup").style.display = "block";
-                counter++;
-            }
+                //counter++;
+            //}
         }
     )
 });
